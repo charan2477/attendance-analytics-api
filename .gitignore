@@ -1,0 +1,38 @@
+# Candidate kit internal working files and archives
+candidate_kit/
+*.zip
+*.docs
+*.docx
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files and secrets (strictly forbidden)
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Docker
+Dockerfile
+docker-compose*.yml
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
